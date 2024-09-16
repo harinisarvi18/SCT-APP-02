@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#000000"
+    tools:ignore="ExtraText"> <!-- Black background -->
+
+    <EditText
+        android:id="@+id/editTextTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:hint="Enter task"
+        android:minHeight="48dp"
+        android:textColor="#FFFFFF" /> <!-- White text color for visibility -->
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_below="@id/editTextTask"
+        android:layout_alignParentEnd="true"
+        android:textColor="#FFFFFF" /> <!-- White text color for visibility -->
+
+    <ListView
+        android:id="@+id/listViewTasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAdd"
+        android:layout_marginTop="16dp"
+        android:divider="@android:color/transparent"/> <!-- Optional: To hide dividers -->
+    android:dividerHeight="0dp" /> <!-- Optional: To hide dividers -->
+
+</RelativeLayout>

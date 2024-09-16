@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="taskDateTime" type="id" />
+    <item name="taskDescription" type="id" />
+    <item name="buttonEdit" type="id" />
+    <item name="buttonDelete" type="id" />
+</resources>
